@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files)
+data/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Logs and results
+logs/
+*.out
+*.err
+wandb/
+
+# Environment
+.env
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
